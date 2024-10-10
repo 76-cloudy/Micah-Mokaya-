@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main() {
+	int start, stop, current;
+	printf("Enter the start value: ");
+	scanf("%d", &start);
+	printf("Enter the stop value: ");
+	scanf("%d", &stop);
+	current=start;
+	do {
+		printf("current value: %d\n", current);
+		current++;
+	}while(current<=stop);
+	return 0;
+}
